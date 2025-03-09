@@ -1,0 +1,3067 @@
+[
+  {
+    "oid": 16,
+    "typname": "bool",
+    "typcategory": "B"
+  },
+  {
+    "oid": 17,
+    "typname": "bytea",
+    "typcategory": "U"
+  },
+  {
+    "oid": 18,
+    "typname": "char",
+    "typcategory": "Z"
+  },
+  {
+    "oid": 19,
+    "typname": "name",
+    "typcategory": "S"
+  },
+  {
+    "oid": 20,
+    "typname": "int8",
+    "typcategory": "N"
+  },
+  {
+    "oid": 21,
+    "typname": "int2",
+    "typcategory": "N"
+  },
+  {
+    "oid": 22,
+    "typname": "int2vector",
+    "typcategory": "A"
+  },
+  {
+    "oid": 23,
+    "typname": "int4",
+    "typcategory": "N"
+  },
+  {
+    "oid": 24,
+    "typname": "regproc",
+    "typcategory": "N"
+  },
+  {
+    "oid": 25,
+    "typname": "text",
+    "typcategory": "S"
+  },
+  {
+    "oid": 26,
+    "typname": "oid",
+    "typcategory": "N"
+  },
+  {
+    "oid": 27,
+    "typname": "tid",
+    "typcategory": "U"
+  },
+  {
+    "oid": 28,
+    "typname": "xid",
+    "typcategory": "U"
+  },
+  {
+    "oid": 29,
+    "typname": "cid",
+    "typcategory": "U"
+  },
+  {
+    "oid": 30,
+    "typname": "oidvector",
+    "typcategory": "A"
+  },
+  {
+    "oid": 71,
+    "typname": "pg_type",
+    "typcategory": "C"
+  },
+  {
+    "oid": 75,
+    "typname": "pg_attribute",
+    "typcategory": "C"
+  },
+  {
+    "oid": 81,
+    "typname": "pg_proc",
+    "typcategory": "C"
+  },
+  {
+    "oid": 83,
+    "typname": "pg_class",
+    "typcategory": "C"
+  },
+  {
+    "oid": 114,
+    "typname": "json",
+    "typcategory": "U"
+  },
+  {
+    "oid": 142,
+    "typname": "xml",
+    "typcategory": "U"
+  },
+  {
+    "oid": 194,
+    "typname": "pg_node_tree",
+    "typcategory": "Z"
+  },
+  {
+    "oid": 3361,
+    "typname": "pg_ndistinct",
+    "typcategory": "Z"
+  },
+  {
+    "oid": 3402,
+    "typname": "pg_dependencies",
+    "typcategory": "Z"
+  },
+  {
+    "oid": 5017,
+    "typname": "pg_mcv_list",
+    "typcategory": "Z"
+  },
+  {
+    "oid": 32,
+    "typname": "pg_ddl_command",
+    "typcategory": "P"
+  },
+  {
+    "oid": 5069,
+    "typname": "xid8",
+    "typcategory": "U"
+  },
+  {
+    "oid": 600,
+    "typname": "point",
+    "typcategory": "G"
+  },
+  {
+    "oid": 601,
+    "typname": "lseg",
+    "typcategory": "G"
+  },
+  {
+    "oid": 602,
+    "typname": "path",
+    "typcategory": "G"
+  },
+  {
+    "oid": 603,
+    "typname": "box",
+    "typcategory": "G"
+  },
+  {
+    "oid": 604,
+    "typname": "polygon",
+    "typcategory": "G"
+  },
+  {
+    "oid": 628,
+    "typname": "line",
+    "typcategory": "G"
+  },
+  {
+    "oid": 700,
+    "typname": "float4",
+    "typcategory": "N"
+  },
+  {
+    "oid": 701,
+    "typname": "float8",
+    "typcategory": "N"
+  },
+  {
+    "oid": 705,
+    "typname": "unknown",
+    "typcategory": "X"
+  },
+  {
+    "oid": 718,
+    "typname": "circle",
+    "typcategory": "G"
+  },
+  {
+    "oid": 790,
+    "typname": "money",
+    "typcategory": "N"
+  },
+  {
+    "oid": 829,
+    "typname": "macaddr",
+    "typcategory": "U"
+  },
+  {
+    "oid": 869,
+    "typname": "inet",
+    "typcategory": "I"
+  },
+  {
+    "oid": 650,
+    "typname": "cidr",
+    "typcategory": "I"
+  },
+  {
+    "oid": 774,
+    "typname": "macaddr8",
+    "typcategory": "U"
+  },
+  {
+    "oid": 1033,
+    "typname": "aclitem",
+    "typcategory": "U"
+  },
+  {
+    "oid": 1042,
+    "typname": "bpchar",
+    "typcategory": "S"
+  },
+  {
+    "oid": 1043,
+    "typname": "varchar",
+    "typcategory": "S"
+  },
+  {
+    "oid": 1082,
+    "typname": "date",
+    "typcategory": "D"
+  },
+  {
+    "oid": 1083,
+    "typname": "time",
+    "typcategory": "D"
+  },
+  {
+    "oid": 1114,
+    "typname": "timestamp",
+    "typcategory": "D"
+  },
+  {
+    "oid": 1184,
+    "typname": "timestamptz",
+    "typcategory": "D"
+  },
+  {
+    "oid": 1186,
+    "typname": "interval",
+    "typcategory": "T"
+  },
+  {
+    "oid": 1266,
+    "typname": "timetz",
+    "typcategory": "D"
+  },
+  {
+    "oid": 1560,
+    "typname": "bit",
+    "typcategory": "V"
+  },
+  {
+    "oid": 1562,
+    "typname": "varbit",
+    "typcategory": "V"
+  },
+  {
+    "oid": 1700,
+    "typname": "numeric",
+    "typcategory": "N"
+  },
+  {
+    "oid": 1790,
+    "typname": "refcursor",
+    "typcategory": "U"
+  },
+  {
+    "oid": 2202,
+    "typname": "regprocedure",
+    "typcategory": "N"
+  },
+  {
+    "oid": 2203,
+    "typname": "regoper",
+    "typcategory": "N"
+  },
+  {
+    "oid": 2204,
+    "typname": "regoperator",
+    "typcategory": "N"
+  },
+  {
+    "oid": 2205,
+    "typname": "regclass",
+    "typcategory": "N"
+  },
+  {
+    "oid": 4191,
+    "typname": "regcollation",
+    "typcategory": "N"
+  },
+  {
+    "oid": 2206,
+    "typname": "regtype",
+    "typcategory": "N"
+  },
+  {
+    "oid": 4096,
+    "typname": "regrole",
+    "typcategory": "N"
+  },
+  {
+    "oid": 4089,
+    "typname": "regnamespace",
+    "typcategory": "N"
+  },
+  {
+    "oid": 2950,
+    "typname": "uuid",
+    "typcategory": "U"
+  },
+  {
+    "oid": 3220,
+    "typname": "pg_lsn",
+    "typcategory": "U"
+  },
+  {
+    "oid": 3614,
+    "typname": "tsvector",
+    "typcategory": "U"
+  },
+  {
+    "oid": 3642,
+    "typname": "gtsvector",
+    "typcategory": "U"
+  },
+  {
+    "oid": 3615,
+    "typname": "tsquery",
+    "typcategory": "U"
+  },
+  {
+    "oid": 3734,
+    "typname": "regconfig",
+    "typcategory": "N"
+  },
+  {
+    "oid": 3769,
+    "typname": "regdictionary",
+    "typcategory": "N"
+  },
+  {
+    "oid": 3802,
+    "typname": "jsonb",
+    "typcategory": "U"
+  },
+  {
+    "oid": 4072,
+    "typname": "jsonpath",
+    "typcategory": "U"
+  },
+  {
+    "oid": 2970,
+    "typname": "txid_snapshot",
+    "typcategory": "U"
+  },
+  {
+    "oid": 5038,
+    "typname": "pg_snapshot",
+    "typcategory": "U"
+  },
+  {
+    "oid": 3904,
+    "typname": "int4range",
+    "typcategory": "R"
+  },
+  {
+    "oid": 3906,
+    "typname": "numrange",
+    "typcategory": "R"
+  },
+  {
+    "oid": 3908,
+    "typname": "tsrange",
+    "typcategory": "R"
+  },
+  {
+    "oid": 3910,
+    "typname": "tstzrange",
+    "typcategory": "R"
+  },
+  {
+    "oid": 3912,
+    "typname": "daterange",
+    "typcategory": "R"
+  },
+  {
+    "oid": 3926,
+    "typname": "int8range",
+    "typcategory": "R"
+  },
+  {
+    "oid": 4451,
+    "typname": "int4multirange",
+    "typcategory": "R"
+  },
+  {
+    "oid": 4532,
+    "typname": "nummultirange",
+    "typcategory": "R"
+  },
+  {
+    "oid": 4533,
+    "typname": "tsmultirange",
+    "typcategory": "R"
+  },
+  {
+    "oid": 4534,
+    "typname": "tstzmultirange",
+    "typcategory": "R"
+  },
+  {
+    "oid": 4535,
+    "typname": "datemultirange",
+    "typcategory": "R"
+  },
+  {
+    "oid": 4536,
+    "typname": "int8multirange",
+    "typcategory": "R"
+  },
+  {
+    "oid": 2249,
+    "typname": "record",
+    "typcategory": "P"
+  },
+  {
+    "oid": 2287,
+    "typname": "_record",
+    "typcategory": "P"
+  },
+  {
+    "oid": 2275,
+    "typname": "cstring",
+    "typcategory": "P"
+  },
+  {
+    "oid": 2276,
+    "typname": "any",
+    "typcategory": "P"
+  },
+  {
+    "oid": 2277,
+    "typname": "anyarray",
+    "typcategory": "P"
+  },
+  {
+    "oid": 2278,
+    "typname": "void",
+    "typcategory": "P"
+  },
+  {
+    "oid": 2279,
+    "typname": "trigger",
+    "typcategory": "P"
+  },
+  {
+    "oid": 3838,
+    "typname": "event_trigger",
+    "typcategory": "P"
+  },
+  {
+    "oid": 2280,
+    "typname": "language_handler",
+    "typcategory": "P"
+  },
+  {
+    "oid": 2281,
+    "typname": "internal",
+    "typcategory": "P"
+  },
+  {
+    "oid": 2283,
+    "typname": "anyelement",
+    "typcategory": "P"
+  },
+  {
+    "oid": 2776,
+    "typname": "anynonarray",
+    "typcategory": "P"
+  },
+  {
+    "oid": 3500,
+    "typname": "anyenum",
+    "typcategory": "P"
+  },
+  {
+    "oid": 3115,
+    "typname": "fdw_handler",
+    "typcategory": "P"
+  },
+  {
+    "oid": 325,
+    "typname": "index_am_handler",
+    "typcategory": "P"
+  },
+  {
+    "oid": 3310,
+    "typname": "tsm_handler",
+    "typcategory": "P"
+  },
+  {
+    "oid": 269,
+    "typname": "table_am_handler",
+    "typcategory": "P"
+  },
+  {
+    "oid": 3831,
+    "typname": "anyrange",
+    "typcategory": "P"
+  },
+  {
+    "oid": 5077,
+    "typname": "anycompatible",
+    "typcategory": "P"
+  },
+  {
+    "oid": 5078,
+    "typname": "anycompatiblearray",
+    "typcategory": "P"
+  },
+  {
+    "oid": 5079,
+    "typname": "anycompatiblenonarray",
+    "typcategory": "P"
+  },
+  {
+    "oid": 5080,
+    "typname": "anycompatiblerange",
+    "typcategory": "P"
+  },
+  {
+    "oid": 4537,
+    "typname": "anymultirange",
+    "typcategory": "P"
+  },
+  {
+    "oid": 4538,
+    "typname": "anycompatiblemultirange",
+    "typcategory": "P"
+  },
+  {
+    "oid": 4600,
+    "typname": "pg_brin_bloom_summary",
+    "typcategory": "Z"
+  },
+  {
+    "oid": 4601,
+    "typname": "pg_brin_minmax_multi_summary",
+    "typcategory": "Z"
+  },
+  {
+    "oid": 1000,
+    "typname": "_bool",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1001,
+    "typname": "_bytea",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1002,
+    "typname": "_char",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1003,
+    "typname": "_name",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1016,
+    "typname": "_int8",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1005,
+    "typname": "_int2",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1006,
+    "typname": "_int2vector",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1007,
+    "typname": "_int4",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1008,
+    "typname": "_regproc",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1009,
+    "typname": "_text",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1028,
+    "typname": "_oid",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1010,
+    "typname": "_tid",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1011,
+    "typname": "_xid",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1012,
+    "typname": "_cid",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1013,
+    "typname": "_oidvector",
+    "typcategory": "A"
+  },
+  {
+    "oid": 210,
+    "typname": "_pg_type",
+    "typcategory": "A"
+  },
+  {
+    "oid": 270,
+    "typname": "_pg_attribute",
+    "typcategory": "A"
+  },
+  {
+    "oid": 272,
+    "typname": "_pg_proc",
+    "typcategory": "A"
+  },
+  {
+    "oid": 273,
+    "typname": "_pg_class",
+    "typcategory": "A"
+  },
+  {
+    "oid": 199,
+    "typname": "_json",
+    "typcategory": "A"
+  },
+  {
+    "oid": 143,
+    "typname": "_xml",
+    "typcategory": "A"
+  },
+  {
+    "oid": 271,
+    "typname": "_xid8",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1017,
+    "typname": "_point",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1018,
+    "typname": "_lseg",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1019,
+    "typname": "_path",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1020,
+    "typname": "_box",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1027,
+    "typname": "_polygon",
+    "typcategory": "A"
+  },
+  {
+    "oid": 629,
+    "typname": "_line",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1021,
+    "typname": "_float4",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1022,
+    "typname": "_float8",
+    "typcategory": "A"
+  },
+  {
+    "oid": 719,
+    "typname": "_circle",
+    "typcategory": "A"
+  },
+  {
+    "oid": 791,
+    "typname": "_money",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1040,
+    "typname": "_macaddr",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1041,
+    "typname": "_inet",
+    "typcategory": "A"
+  },
+  {
+    "oid": 651,
+    "typname": "_cidr",
+    "typcategory": "A"
+  },
+  {
+    "oid": 775,
+    "typname": "_macaddr8",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1034,
+    "typname": "_aclitem",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1014,
+    "typname": "_bpchar",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1015,
+    "typname": "_varchar",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1182,
+    "typname": "_date",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1183,
+    "typname": "_time",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1115,
+    "typname": "_timestamp",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1185,
+    "typname": "_timestamptz",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1187,
+    "typname": "_interval",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1270,
+    "typname": "_timetz",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1561,
+    "typname": "_bit",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1563,
+    "typname": "_varbit",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1231,
+    "typname": "_numeric",
+    "typcategory": "A"
+  },
+  {
+    "oid": 2201,
+    "typname": "_refcursor",
+    "typcategory": "A"
+  },
+  {
+    "oid": 2207,
+    "typname": "_regprocedure",
+    "typcategory": "A"
+  },
+  {
+    "oid": 2208,
+    "typname": "_regoper",
+    "typcategory": "A"
+  },
+  {
+    "oid": 2209,
+    "typname": "_regoperator",
+    "typcategory": "A"
+  },
+  {
+    "oid": 2210,
+    "typname": "_regclass",
+    "typcategory": "A"
+  },
+  {
+    "oid": 4192,
+    "typname": "_regcollation",
+    "typcategory": "A"
+  },
+  {
+    "oid": 2211,
+    "typname": "_regtype",
+    "typcategory": "A"
+  },
+  {
+    "oid": 4097,
+    "typname": "_regrole",
+    "typcategory": "A"
+  },
+  {
+    "oid": 4090,
+    "typname": "_regnamespace",
+    "typcategory": "A"
+  },
+  {
+    "oid": 2951,
+    "typname": "_uuid",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3221,
+    "typname": "_pg_lsn",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3643,
+    "typname": "_tsvector",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3644,
+    "typname": "_gtsvector",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3645,
+    "typname": "_tsquery",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3735,
+    "typname": "_regconfig",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3770,
+    "typname": "_regdictionary",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3807,
+    "typname": "_jsonb",
+    "typcategory": "A"
+  },
+  {
+    "oid": 4073,
+    "typname": "_jsonpath",
+    "typcategory": "A"
+  },
+  {
+    "oid": 2949,
+    "typname": "_txid_snapshot",
+    "typcategory": "A"
+  },
+  {
+    "oid": 5039,
+    "typname": "_pg_snapshot",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3905,
+    "typname": "_int4range",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3907,
+    "typname": "_numrange",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3909,
+    "typname": "_tsrange",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3911,
+    "typname": "_tstzrange",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3913,
+    "typname": "_daterange",
+    "typcategory": "A"
+  },
+  {
+    "oid": 3927,
+    "typname": "_int8range",
+    "typcategory": "A"
+  },
+  {
+    "oid": 6150,
+    "typname": "_int4multirange",
+    "typcategory": "A"
+  },
+  {
+    "oid": 6151,
+    "typname": "_nummultirange",
+    "typcategory": "A"
+  },
+  {
+    "oid": 6152,
+    "typname": "_tsmultirange",
+    "typcategory": "A"
+  },
+  {
+    "oid": 6153,
+    "typname": "_tstzmultirange",
+    "typcategory": "A"
+  },
+  {
+    "oid": 6155,
+    "typname": "_datemultirange",
+    "typcategory": "A"
+  },
+  {
+    "oid": 6157,
+    "typname": "_int8multirange",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1263,
+    "typname": "_cstring",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10001,
+    "typname": "pg_attrdef",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10000,
+    "typname": "_pg_attrdef",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10003,
+    "typname": "pg_constraint",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10002,
+    "typname": "_pg_constraint",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10005,
+    "typname": "pg_inherits",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10004,
+    "typname": "_pg_inherits",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10007,
+    "typname": "pg_index",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10006,
+    "typname": "_pg_index",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10009,
+    "typname": "pg_operator",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10008,
+    "typname": "_pg_operator",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10011,
+    "typname": "pg_opfamily",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10010,
+    "typname": "_pg_opfamily",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10013,
+    "typname": "pg_opclass",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10012,
+    "typname": "_pg_opclass",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10015,
+    "typname": "pg_am",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10014,
+    "typname": "_pg_am",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10017,
+    "typname": "pg_amop",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10016,
+    "typname": "_pg_amop",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10019,
+    "typname": "pg_amproc",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10018,
+    "typname": "_pg_amproc",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10021,
+    "typname": "pg_language",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10020,
+    "typname": "_pg_language",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10023,
+    "typname": "pg_largeobject_metadata",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10022,
+    "typname": "_pg_largeobject_metadata",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10025,
+    "typname": "pg_largeobject",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10024,
+    "typname": "_pg_largeobject",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10027,
+    "typname": "pg_aggregate",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10026,
+    "typname": "_pg_aggregate",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10029,
+    "typname": "pg_statistic",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10028,
+    "typname": "_pg_statistic",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10031,
+    "typname": "pg_statistic_ext",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10030,
+    "typname": "_pg_statistic_ext",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10033,
+    "typname": "pg_statistic_ext_data",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10032,
+    "typname": "_pg_statistic_ext_data",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10035,
+    "typname": "pg_rewrite",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10034,
+    "typname": "_pg_rewrite",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10037,
+    "typname": "pg_trigger",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10036,
+    "typname": "_pg_trigger",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10039,
+    "typname": "pg_event_trigger",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10038,
+    "typname": "_pg_event_trigger",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10041,
+    "typname": "pg_description",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10040,
+    "typname": "_pg_description",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10043,
+    "typname": "pg_cast",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10042,
+    "typname": "_pg_cast",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10045,
+    "typname": "pg_enum",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10044,
+    "typname": "_pg_enum",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10047,
+    "typname": "pg_namespace",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10046,
+    "typname": "_pg_namespace",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10049,
+    "typname": "pg_conversion",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10048,
+    "typname": "_pg_conversion",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10051,
+    "typname": "pg_depend",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10050,
+    "typname": "_pg_depend",
+    "typcategory": "A"
+  },
+  {
+    "oid": 1248,
+    "typname": "pg_database",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10052,
+    "typname": "_pg_database",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10054,
+    "typname": "pg_db_role_setting",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10053,
+    "typname": "_pg_db_role_setting",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10056,
+    "typname": "pg_tablespace",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10055,
+    "typname": "_pg_tablespace",
+    "typcategory": "A"
+  },
+  {
+    "oid": 2842,
+    "typname": "pg_authid",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10057,
+    "typname": "_pg_authid",
+    "typcategory": "A"
+  },
+  {
+    "oid": 2843,
+    "typname": "pg_auth_members",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10058,
+    "typname": "_pg_auth_members",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10060,
+    "typname": "pg_shdepend",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10059,
+    "typname": "_pg_shdepend",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10062,
+    "typname": "pg_shdescription",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10061,
+    "typname": "_pg_shdescription",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10064,
+    "typname": "pg_ts_config",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10063,
+    "typname": "_pg_ts_config",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10066,
+    "typname": "pg_ts_config_map",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10065,
+    "typname": "_pg_ts_config_map",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10068,
+    "typname": "pg_ts_dict",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10067,
+    "typname": "_pg_ts_dict",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10070,
+    "typname": "pg_ts_parser",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10069,
+    "typname": "_pg_ts_parser",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10072,
+    "typname": "pg_ts_template",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10071,
+    "typname": "_pg_ts_template",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10074,
+    "typname": "pg_extension",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10073,
+    "typname": "_pg_extension",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10076,
+    "typname": "pg_foreign_data_wrapper",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10075,
+    "typname": "_pg_foreign_data_wrapper",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10078,
+    "typname": "pg_foreign_server",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10077,
+    "typname": "_pg_foreign_server",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10080,
+    "typname": "pg_user_mapping",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10079,
+    "typname": "_pg_user_mapping",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10082,
+    "typname": "pg_foreign_table",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10081,
+    "typname": "_pg_foreign_table",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10084,
+    "typname": "pg_policy",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10083,
+    "typname": "_pg_policy",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10086,
+    "typname": "pg_replication_origin",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10085,
+    "typname": "_pg_replication_origin",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10088,
+    "typname": "pg_default_acl",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10087,
+    "typname": "_pg_default_acl",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10090,
+    "typname": "pg_init_privs",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10089,
+    "typname": "_pg_init_privs",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10092,
+    "typname": "pg_seclabel",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10091,
+    "typname": "_pg_seclabel",
+    "typcategory": "A"
+  },
+  {
+    "oid": 4066,
+    "typname": "pg_shseclabel",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10093,
+    "typname": "_pg_shseclabel",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10095,
+    "typname": "pg_collation",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10094,
+    "typname": "_pg_collation",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10097,
+    "typname": "pg_parameter_acl",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10096,
+    "typname": "_pg_parameter_acl",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10099,
+    "typname": "pg_partitioned_table",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10098,
+    "typname": "_pg_partitioned_table",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10101,
+    "typname": "pg_range",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10100,
+    "typname": "_pg_range",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10103,
+    "typname": "pg_transform",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10102,
+    "typname": "_pg_transform",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10105,
+    "typname": "pg_sequence",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10104,
+    "typname": "_pg_sequence",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10107,
+    "typname": "pg_publication",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10106,
+    "typname": "_pg_publication",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10109,
+    "typname": "pg_publication_namespace",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10108,
+    "typname": "_pg_publication_namespace",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10111,
+    "typname": "pg_publication_rel",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10110,
+    "typname": "_pg_publication_rel",
+    "typcategory": "A"
+  },
+  {
+    "oid": 6101,
+    "typname": "pg_subscription",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10112,
+    "typname": "_pg_subscription",
+    "typcategory": "A"
+  },
+  {
+    "oid": 10114,
+    "typname": "pg_subscription_rel",
+    "typcategory": "C"
+  },
+  {
+    "oid": 10113,
+    "typname": "_pg_subscription_rel",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12002,
+    "typname": "pg_roles",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12001,
+    "typname": "_pg_roles",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12007,
+    "typname": "pg_shadow",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12006,
+    "typname": "_pg_shadow",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12012,
+    "typname": "pg_group",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12011,
+    "typname": "_pg_group",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12016,
+    "typname": "pg_user",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12015,
+    "typname": "_pg_user",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12020,
+    "typname": "pg_policies",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12019,
+    "typname": "_pg_policies",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12025,
+    "typname": "pg_rules",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12024,
+    "typname": "_pg_rules",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12030,
+    "typname": "pg_views",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12029,
+    "typname": "_pg_views",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12035,
+    "typname": "pg_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12034,
+    "typname": "_pg_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12040,
+    "typname": "pg_matviews",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12039,
+    "typname": "_pg_matviews",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12045,
+    "typname": "pg_indexes",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12044,
+    "typname": "_pg_indexes",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12050,
+    "typname": "pg_sequences",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12049,
+    "typname": "_pg_sequences",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12055,
+    "typname": "pg_stats",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12054,
+    "typname": "_pg_stats",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12060,
+    "typname": "pg_stats_ext",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12059,
+    "typname": "_pg_stats_ext",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12065,
+    "typname": "pg_stats_ext_exprs",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12064,
+    "typname": "_pg_stats_ext_exprs",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12070,
+    "typname": "pg_publication_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12069,
+    "typname": "_pg_publication_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12075,
+    "typname": "pg_locks",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12074,
+    "typname": "_pg_locks",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12079,
+    "typname": "pg_cursors",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12078,
+    "typname": "_pg_cursors",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12083,
+    "typname": "pg_available_extensions",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12082,
+    "typname": "_pg_available_extensions",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12087,
+    "typname": "pg_available_extension_versions",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12086,
+    "typname": "_pg_available_extension_versions",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12092,
+    "typname": "pg_prepared_xacts",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12091,
+    "typname": "_pg_prepared_xacts",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12097,
+    "typname": "pg_prepared_statements",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12096,
+    "typname": "_pg_prepared_statements",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12101,
+    "typname": "pg_seclabels",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12100,
+    "typname": "_pg_seclabels",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12106,
+    "typname": "pg_settings",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12105,
+    "typname": "_pg_settings",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12112,
+    "typname": "pg_file_settings",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12111,
+    "typname": "_pg_file_settings",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12116,
+    "typname": "pg_hba_file_rules",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12115,
+    "typname": "_pg_hba_file_rules",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12120,
+    "typname": "pg_ident_file_mappings",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12119,
+    "typname": "_pg_ident_file_mappings",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12124,
+    "typname": "pg_timezone_abbrevs",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12123,
+    "typname": "_pg_timezone_abbrevs",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12128,
+    "typname": "pg_timezone_names",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12127,
+    "typname": "_pg_timezone_names",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12132,
+    "typname": "pg_config",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12131,
+    "typname": "_pg_config",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12136,
+    "typname": "pg_shmem_allocations",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12135,
+    "typname": "_pg_shmem_allocations",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12140,
+    "typname": "pg_backend_memory_contexts",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12139,
+    "typname": "_pg_backend_memory_contexts",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12144,
+    "typname": "pg_stat_all_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12143,
+    "typname": "_pg_stat_all_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12149,
+    "typname": "pg_stat_xact_all_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12148,
+    "typname": "_pg_stat_xact_all_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12154,
+    "typname": "pg_stat_sys_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12153,
+    "typname": "_pg_stat_sys_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12159,
+    "typname": "pg_stat_xact_sys_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12158,
+    "typname": "_pg_stat_xact_sys_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12163,
+    "typname": "pg_stat_user_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12162,
+    "typname": "_pg_stat_user_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12168,
+    "typname": "pg_stat_xact_user_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12167,
+    "typname": "_pg_stat_xact_user_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12172,
+    "typname": "pg_statio_all_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12171,
+    "typname": "_pg_statio_all_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12177,
+    "typname": "pg_statio_sys_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12176,
+    "typname": "_pg_statio_sys_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12181,
+    "typname": "pg_statio_user_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12180,
+    "typname": "_pg_statio_user_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12185,
+    "typname": "pg_stat_all_indexes",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12184,
+    "typname": "_pg_stat_all_indexes",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12190,
+    "typname": "pg_stat_sys_indexes",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12189,
+    "typname": "_pg_stat_sys_indexes",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12194,
+    "typname": "pg_stat_user_indexes",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12193,
+    "typname": "_pg_stat_user_indexes",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12198,
+    "typname": "pg_statio_all_indexes",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12197,
+    "typname": "_pg_statio_all_indexes",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12203,
+    "typname": "pg_statio_sys_indexes",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12202,
+    "typname": "_pg_statio_sys_indexes",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12207,
+    "typname": "pg_statio_user_indexes",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12206,
+    "typname": "_pg_statio_user_indexes",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12211,
+    "typname": "pg_statio_all_sequences",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12210,
+    "typname": "_pg_statio_all_sequences",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12216,
+    "typname": "pg_statio_sys_sequences",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12215,
+    "typname": "_pg_statio_sys_sequences",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12220,
+    "typname": "pg_statio_user_sequences",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12219,
+    "typname": "_pg_statio_user_sequences",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12224,
+    "typname": "pg_stat_activity",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12223,
+    "typname": "_pg_stat_activity",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12229,
+    "typname": "pg_stat_replication",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12228,
+    "typname": "_pg_stat_replication",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12234,
+    "typname": "pg_stat_slru",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12233,
+    "typname": "_pg_stat_slru",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12238,
+    "typname": "pg_stat_wal_receiver",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12237,
+    "typname": "_pg_stat_wal_receiver",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12242,
+    "typname": "pg_stat_recovery_prefetch",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12241,
+    "typname": "_pg_stat_recovery_prefetch",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12246,
+    "typname": "pg_stat_subscription",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12245,
+    "typname": "_pg_stat_subscription",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12251,
+    "typname": "pg_stat_ssl",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12250,
+    "typname": "_pg_stat_ssl",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12255,
+    "typname": "pg_stat_gssapi",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12254,
+    "typname": "_pg_stat_gssapi",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12259,
+    "typname": "pg_replication_slots",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12258,
+    "typname": "_pg_replication_slots",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12264,
+    "typname": "pg_stat_replication_slots",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12263,
+    "typname": "_pg_stat_replication_slots",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12268,
+    "typname": "pg_stat_database",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12267,
+    "typname": "_pg_stat_database",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12273,
+    "typname": "pg_stat_database_conflicts",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12272,
+    "typname": "_pg_stat_database_conflicts",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12277,
+    "typname": "pg_stat_user_functions",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12276,
+    "typname": "_pg_stat_user_functions",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12282,
+    "typname": "pg_stat_xact_user_functions",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12281,
+    "typname": "_pg_stat_xact_user_functions",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12287,
+    "typname": "pg_stat_archiver",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12286,
+    "typname": "_pg_stat_archiver",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12291,
+    "typname": "pg_stat_bgwriter",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12290,
+    "typname": "_pg_stat_bgwriter",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12295,
+    "typname": "pg_stat_io",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12294,
+    "typname": "_pg_stat_io",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12299,
+    "typname": "pg_stat_wal",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12298,
+    "typname": "_pg_stat_wal",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12303,
+    "typname": "pg_stat_progress_analyze",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12302,
+    "typname": "_pg_stat_progress_analyze",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12308,
+    "typname": "pg_stat_progress_vacuum",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12307,
+    "typname": "_pg_stat_progress_vacuum",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12313,
+    "typname": "pg_stat_progress_cluster",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12312,
+    "typname": "_pg_stat_progress_cluster",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12318,
+    "typname": "pg_stat_progress_create_index",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12317,
+    "typname": "_pg_stat_progress_create_index",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12323,
+    "typname": "pg_stat_progress_basebackup",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12322,
+    "typname": "_pg_stat_progress_basebackup",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12328,
+    "typname": "pg_stat_progress_copy",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12327,
+    "typname": "_pg_stat_progress_copy",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12333,
+    "typname": "pg_user_mappings",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12332,
+    "typname": "_pg_user_mappings",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12338,
+    "typname": "pg_replication_origin_status",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12337,
+    "typname": "_pg_replication_origin_status",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12342,
+    "typname": "pg_stat_subscription_stats",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12341,
+    "typname": "_pg_stat_subscription_stats",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12420,
+    "typname": "cardinal_number",
+    "typcategory": "N"
+  },
+  {
+    "oid": 12419,
+    "typname": "_cardinal_number",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12423,
+    "typname": "character_data",
+    "typcategory": "S"
+  },
+  {
+    "oid": 12422,
+    "typname": "_character_data",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12425,
+    "typname": "sql_identifier",
+    "typcategory": "S"
+  },
+  {
+    "oid": 12424,
+    "typname": "_sql_identifier",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12428,
+    "typname": "information_schema_catalog_name",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12427,
+    "typname": "_information_schema_catalog_name",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12431,
+    "typname": "time_stamp",
+    "typcategory": "D"
+  },
+  {
+    "oid": 12430,
+    "typname": "_time_stamp",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12433,
+    "typname": "yes_or_no",
+    "typcategory": "S"
+  },
+  {
+    "oid": 12432,
+    "typname": "_yes_or_no",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12437,
+    "typname": "applicable_roles",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12436,
+    "typname": "_applicable_roles",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12442,
+    "typname": "administrable_role_authorizations",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12441,
+    "typname": "_administrable_role_authorizations",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12446,
+    "typname": "attributes",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12445,
+    "typname": "_attributes",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12451,
+    "typname": "character_sets",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12450,
+    "typname": "_character_sets",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12456,
+    "typname": "check_constraint_routine_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12455,
+    "typname": "_check_constraint_routine_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12461,
+    "typname": "check_constraints",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12460,
+    "typname": "_check_constraints",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12466,
+    "typname": "collations",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12465,
+    "typname": "_collations",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12471,
+    "typname": "collation_character_set_applicability",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12470,
+    "typname": "_collation_character_set_applicability",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12476,
+    "typname": "column_column_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12475,
+    "typname": "_column_column_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12481,
+    "typname": "column_domain_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12480,
+    "typname": "_column_domain_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12486,
+    "typname": "column_privileges",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12485,
+    "typname": "_column_privileges",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12491,
+    "typname": "column_udt_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12490,
+    "typname": "_column_udt_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12496,
+    "typname": "columns",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12495,
+    "typname": "_columns",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12501,
+    "typname": "constraint_column_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12500,
+    "typname": "_constraint_column_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12506,
+    "typname": "constraint_table_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12505,
+    "typname": "_constraint_table_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12511,
+    "typname": "domain_constraints",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12510,
+    "typname": "_domain_constraints",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12516,
+    "typname": "domain_udt_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12515,
+    "typname": "_domain_udt_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12521,
+    "typname": "domains",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12520,
+    "typname": "_domains",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12526,
+    "typname": "enabled_roles",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12525,
+    "typname": "_enabled_roles",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12530,
+    "typname": "key_column_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12529,
+    "typname": "_key_column_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12535,
+    "typname": "parameters",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12534,
+    "typname": "_parameters",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12540,
+    "typname": "referential_constraints",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12539,
+    "typname": "_referential_constraints",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12545,
+    "typname": "role_column_grants",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12544,
+    "typname": "_role_column_grants",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12549,
+    "typname": "routine_column_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12548,
+    "typname": "_routine_column_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12554,
+    "typname": "routine_privileges",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12553,
+    "typname": "_routine_privileges",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12559,
+    "typname": "role_routine_grants",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12558,
+    "typname": "_role_routine_grants",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12563,
+    "typname": "routine_routine_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12562,
+    "typname": "_routine_routine_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12568,
+    "typname": "routine_sequence_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12567,
+    "typname": "_routine_sequence_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12573,
+    "typname": "routine_table_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12572,
+    "typname": "_routine_table_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12578,
+    "typname": "routines",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12577,
+    "typname": "_routines",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12583,
+    "typname": "schemata",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12582,
+    "typname": "_schemata",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12587,
+    "typname": "sequences",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12586,
+    "typname": "_sequences",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12592,
+    "typname": "sql_features",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12591,
+    "typname": "_sql_features",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12597,
+    "typname": "sql_implementation_info",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12596,
+    "typname": "_sql_implementation_info",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12602,
+    "typname": "sql_parts",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12601,
+    "typname": "_sql_parts",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12607,
+    "typname": "sql_sizing",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12606,
+    "typname": "_sql_sizing",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12612,
+    "typname": "table_constraints",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12611,
+    "typname": "_table_constraints",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12617,
+    "typname": "table_privileges",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12616,
+    "typname": "_table_privileges",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12622,
+    "typname": "role_table_grants",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12621,
+    "typname": "_role_table_grants",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12626,
+    "typname": "tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12625,
+    "typname": "_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12631,
+    "typname": "transforms",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12630,
+    "typname": "_transforms",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12636,
+    "typname": "triggered_update_columns",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12635,
+    "typname": "_triggered_update_columns",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12641,
+    "typname": "triggers",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12640,
+    "typname": "_triggers",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12646,
+    "typname": "udt_privileges",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12645,
+    "typname": "_udt_privileges",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12651,
+    "typname": "role_udt_grants",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12650,
+    "typname": "_role_udt_grants",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12655,
+    "typname": "usage_privileges",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12654,
+    "typname": "_usage_privileges",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12660,
+    "typname": "role_usage_grants",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12659,
+    "typname": "_role_usage_grants",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12664,
+    "typname": "user_defined_types",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12663,
+    "typname": "_user_defined_types",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12669,
+    "typname": "view_column_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12668,
+    "typname": "_view_column_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12674,
+    "typname": "view_routine_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12673,
+    "typname": "_view_routine_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12679,
+    "typname": "view_table_usage",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12678,
+    "typname": "_view_table_usage",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12684,
+    "typname": "views",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12683,
+    "typname": "_views",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12689,
+    "typname": "data_type_privileges",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12688,
+    "typname": "_data_type_privileges",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12694,
+    "typname": "element_types",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12693,
+    "typname": "_element_types",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12699,
+    "typname": "_pg_foreign_table_columns",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12698,
+    "typname": "__pg_foreign_table_columns",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12704,
+    "typname": "column_options",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12703,
+    "typname": "_column_options",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12708,
+    "typname": "_pg_foreign_data_wrappers",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12707,
+    "typname": "__pg_foreign_data_wrappers",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12712,
+    "typname": "foreign_data_wrapper_options",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12711,
+    "typname": "_foreign_data_wrapper_options",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12716,
+    "typname": "foreign_data_wrappers",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12715,
+    "typname": "_foreign_data_wrappers",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12720,
+    "typname": "_pg_foreign_servers",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12719,
+    "typname": "__pg_foreign_servers",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12725,
+    "typname": "foreign_server_options",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12724,
+    "typname": "_foreign_server_options",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12729,
+    "typname": "foreign_servers",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12728,
+    "typname": "_foreign_servers",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12733,
+    "typname": "_pg_foreign_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12732,
+    "typname": "__pg_foreign_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12738,
+    "typname": "foreign_table_options",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12737,
+    "typname": "_foreign_table_options",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12742,
+    "typname": "foreign_tables",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12741,
+    "typname": "_foreign_tables",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12746,
+    "typname": "_pg_user_mappings",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12745,
+    "typname": "__pg_user_mappings",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12751,
+    "typname": "user_mapping_options",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12750,
+    "typname": "_user_mapping_options",
+    "typcategory": "A"
+  },
+  {
+    "oid": 12756,
+    "typname": "user_mappings",
+    "typcategory": "C"
+  },
+  {
+    "oid": 12755,
+    "typname": "_user_mappings",
+    "typcategory": "A"
+  }
+]

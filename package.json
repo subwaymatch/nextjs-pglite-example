@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "prebuild": "npx tsx scripts/generate_pgtypes.mts",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
