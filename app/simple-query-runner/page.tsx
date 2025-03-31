@@ -2,17 +2,19 @@
 
 import { useState } from "react";
 import { PGlite } from "@electric-sql/pglite";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Loader2 } from "lucide-react";
+import { useToggle } from "react-use";
+import TableView from "../components/TableView";
 
 export default function QueryPage() {
   const [query, setQuery] = useState("SELECT NOW();");
   const [queryResult, setQueryResult] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [isTableView, toggleTableView] = useToggle(true);
 
   const runQuery = async () => {
     setIsLoading(true);
@@ -81,9 +83,13 @@ export default function QueryPage() {
             <CardTitle>Query Result in JSON</CardTitle>
           </CardHeader>
           <CardContent>
-            <pre className="bg-slate-50 p-4 rounded overflow-x-auto">
-              {JSON.stringify(queryResult, null, 2)}
-            </pre>
+            {isTableView ? (
+              <TableView data={queryResult} />
+            ) : (
+              <pre className="bg-slate-50 p-4 rounded overflow-x-auto">
+                {JSON.stringify(queryResult, null, 2)}
+              </pre>
+            )}
           </CardContent>
         </Card>
       )}
