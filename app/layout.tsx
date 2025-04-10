@@ -4,7 +4,11 @@ import { Geist_Mono } from "next/font/google";
 
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",

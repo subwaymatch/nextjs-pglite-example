@@ -121,6 +121,9 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply font-sans bg-background text-foreground;
+  }
+  .font-sans {
+    @apply tracking-tight;
   }
 }
