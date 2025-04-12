@@ -10,6 +10,7 @@ export default function Home() {
           <Link href="/simple-query-runner">Simple Query Runner</Link>
           <Link href="/dashboard/">Dashboard</Link>
           <Link href="/query-editor/">Query Editor</Link>
+          <Link href="/multiply-by-two/">Multiply by Two (Worker Example)</Link>
           <Link href="/worker/">Simple Query Runner inside a Worker</Link>
         </div>
       </div>
