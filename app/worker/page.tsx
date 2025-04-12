@@ -8,8 +8,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Loader2 } from "lucide-react";
 import { useToggle } from "react-use";
 import TableView from "@/app/components/TableView";
+import { PGliteWorker } from "@electric-sql/pglite/worker";
 
-export default function QueryPage() {
+export default function WorkerExamplePage() {
   const [query, setQuery] = useState("SELECT NOW();");
   const [queryResult, setQueryResult] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -21,8 +22,12 @@ export default function QueryPage() {
     setError(null);
 
     try {
-      const db = new PGlite();
-      const result = await db.exec(query);
+      const pg = await PGliteWorker.create(
+        new Worker(new URL("./worker-process.ts", import.meta.url), {
+          type: "module",
+        })
+      );
+      const result = await pg.exec(query);
       setQueryResult(result);
     } catch (err) {
       setError(err instanceof Error ? err.message : "An error occurred");
@@ -34,7 +39,9 @@ export default function QueryPage() {
 
   return (
     <div className="container py-10 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-bold mb-6">SQL Query Runner</h1>
+      <h1 className="text-2xl font-bold mb-6">
+        SQL Query Runner inside a Worker
+      </h1>
 
       <Card>
         <CardHeader>
